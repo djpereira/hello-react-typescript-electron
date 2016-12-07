@@ -1,0 +1,23 @@
+{
+  "name": "hello-react-typescript-electron",
+  "version": "1.0.0",
+  "description": "Hello ReactJS Electron app using TypeScript",
+  "scripts": {
+    "start": "tsc -P ./src && electron ./app/main/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.10",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "@types/electron": "^1.4.29",
+    "@types/node": "0.0.2",
+    "@types/react": "^0.14.54",
+    "@types/react-dom": "^0.14.19",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
